@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <noisestorm>
+        <h3>Create a new account</h3>
+        <form action="createAccount.php" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label for="username">Username: </label>
+                    </td>
+                    <td>
+                        <input id=firstInput type="text" id="user" name="user" size="23" autocomplete="off"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="passwd">Password:&nbsp;</label>
+                    </td>
+                    <td>
+                        <input id=secondInput type="password" id="passwd" name="passwd" size="23"/>
+                    </td>
+                </tr>
+            </table>
+            
+            <center>
+                <a href="createAccount.php"><button id="SignUpBtn">Sign up</button></a>
+            </center>
+        </form>
+    </noisestorm>
+</body>
+</html>

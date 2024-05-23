@@ -1,0 +1,357 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/1170390.jpg");
+    background-size: 100%;
+    /*background-color: #233d69;*/
+}
+
+defqwop, tristam, clarx, noisestorm, astronaut{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    font-family: cursive;
+}
+
+h3 {
+    margin-bottom: 19px;
+}
+
+input {
+    transform: translate(,-50%);
+    height: 22px;
+    background-color: #182a4a;
+}
+
+#firstInput {
+    margin-bottom: 6px;
+}
+
+#secondInput {
+    margin-bottom: 8px;
+}
+
+td {
+    padding: 0px;
+}
+
+tristam, noisestorm, astronaut, button{
+    font-size: 30px;
+    color: black;
+    -webkit-text-stroke: 1px white;
+}
+
+.LogInError{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    font-size: 30px;
+    color: black;
+    -webkit-text-stroke: 0.5px white;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0);
+    width: 40%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.addNewEvent {
+    width: 305px;
+    height: 147px;
+    border: 0px;
+    color: lime;
+    -webkit-text-stroke: 1px green;
+}
+
+#addNewEvent1 {
+    background-image: url(../images/ButtonBackground1.png);
+}
+#addNewEvent2 {
+    background-image: url(../images/ButtonBackground2.png);
+}
+#addNewEvent3 {
+    background-image: url(../images/ButtonBackground3.png);
+}
+#addNewEvent4 {
+    background-image: url(../images/ButtonBackground4.png);
+}
+
+#addNewEvent1:hover {
+    background-image: url(../images//ButtonBackgroundHovered1.png);
+}
+#addNewEvent2:hover {
+    background-image: url(../images//ButtonBackgroundHovered2.png);
+}
+#addNewEvent3:hover {
+    background-image: url(../images//ButtonBackgroundHovered3.png);
+}
+#addNewEvent4:hover {
+    background-image: url(../images//ButtonBackgroundHovered4.png);
+}
+
+defqwop {
+    top: 30%;
+    font-size: 80px;
+    font-weight: 1000;
+    color: white;
+    -webkit-text-stroke: 3px black;
+    letter-spacing: -2px;
+}
+
+tristam {
+    top: 55%;
+    font-weight: 1000;
+    align-items: center;
+}
+
+astronaut {
+    top: 50%;
+    font-weight: 600;
+}
+
+.SignUpBtn, .LogInBtn {
+    -webkit-text-stroke: 0px;
+}
+
+.SignUpBtn {
+    position: absolute;
+    bottom: 
+}
+
+#nextStepBtn {
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 140px;
+}
+
+noisestorm {
+    top: 50%;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#insertCrisis, input, textarea{
+    -webkit-text-stroke: 0px;
+}
+
+#insertCrisis, input{
+    color: white;
+}
+
+#shortInputHours, #shortInputMinutes {
+    width: 10%;
+}
+
+.PTD, #PTD2, .PTDB{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-family: cursive;
+    padding: 12px;
+    padding-top,
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.linkDivHabit {
+    position: inherit;
+    border: solid 1px black;
+    display: block;
+    height: 100%;
+}
+
+.PTDH, #PTD2H, .PTDBH, .lastDate, .daysCounter {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+    padding: 40px;
+    padding-top,
+    padding-bottom: 8px;
+    border-radius: 10px;
+}
+
+.PTD, .PTDB {
+    border: 2px black solid;
+    background-color: #000066;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.PTDH, .PTDBH, .lastDate, .daysCounter {
+    border: 2px black solid;
+    background-color: #285cb8;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+#PTD2 {
+    border: 2px #286ce5 solid;
+    background-color: black;
+}
+
+#PTD2H {
+    border: 2px #286ce5 solid;
+    background-color: black;
+}
+
+#JustifiedBtn, #TotalEventTimeBtn, #DayScoreBtn {
+    width: 300px;
+    font-size: 18px;
+    color: white;
+    -webkit-text-stroke: 0px;
+}
+
+#JustifiedDisplay, #TotalEventTimeDisplay, #DayScoreDisplay {
+    color: white;
+    font-size 14px;
+}
+
+
+#JavaScriptButtons, #safetyButtons {
+    position: fixed;
+}
+#JavaScriptButtons {
+    bottom: 3%;
+    right: 2%;
+}
+#safetyButtons {
+    bottom: -1%;
+    right: 2%;
+}
+
+
+#safetyBtn, #extraSafetyBtn {
+    font-size: 18px;
+}
+#safetyBtn {
+    width: 100px;
+    background-color: darkgreen;
+}
+#extraSafetyBtn {
+    width: 140px;
+    background-color: darkred;
+}
+
+.updateDay {
+    width: 30px;
+}
+
+
+
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 0;
+  left: 50%;
+  height: 75px;
+  width: 75px;
+  background-color: #285cb8;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #285cb8;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 27px;
+  top: 15px;
+  width: 15px;
+  height: 30px;
+  border: solid white;
+  border-width: 0 9px 9px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#shouldntBeSeen {
+    background-color: rgba(0,0,0,0);
+}
+
+howToUse a{
+    position: absolute;
+    left: 46%;
+    bottom: 3%;
+    font-size: 30px;
+    font-weight: 1000;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    letter-spacing: -2px;
+    font-family: cursive;
+    text-decoration: none;
+}
+
+green {
+    color: darkgreen;
+    -webkit-text-stroke: 0.2px white;
+}
+red {
+    color: #990000;
+    -webkit-text-stroke: 0px;
+}
+orange {
+    color: #cc8800;
+    -webkit-text-stroke: 0px;
+}       
+blue {
+    color: #0088cc;
+    -webkit-text-stroke: 0px;
+}
+lime {
+    color: #00b36b;
+    -webkit-text-stroke: 0px;
+}

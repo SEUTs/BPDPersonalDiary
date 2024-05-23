@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <defqwop>
+        Welcome
+    </defqwop>
+    <tristam>
+        <h3>Log into your account</h3>
+        <form onsubmit="return validateForm()" action="verify.php" method="post">
+            <table>
+                <tr>
+                    <td>
+                        <label for="username">Username: </label>
+                    </td>
+                    <td>
+                        <input id=firstInput type="text" id="username" name="username" size="23" autocomplete="off"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="password">Password:&nbsp;</label>
+                    </td>
+                    <td>
+                        <input id=secondInput type="password" id="password" name="password" size="23"/>
+                    </td>
+                </tr>
+            </table>
+            
+            <center>
+                <button type="submit" id="LogInBtn">Log in</button>
+            </center>
+        </form>
+
+        <center>
+            <a href="signUp.html"><button id="SignUpBtn">Sign up</button></a>
+        </center>
+        
+        <br>
+        
+        <div id="msgUsername"></div>
+        <div id="msgPassword"></div>
+    </tristam>
+
+<script>
+    function validateForm() {
+        let username = document.getElementById('username').value,
+            msgUsername = document.getElementById('msgUsername'),
+        	password = document.getElementById('password').value,
+            msgPassword = document.getElementById('msgPassword'),
+        	valid = true;
+
+        return false;
+        
+            if (username.length < 1) {
+                msgUsername.innerHTML = 'Username must have minimun 3 letters';
+                valid = false;
+            }
+            else
+                msgUsername.innerHTML = '';
+
+            if (password.length < 1){
+                msgPassword.innerHTML = 'Password is too short';
+                valid = false;
+            }
+            else
+                msgPassword.innerHTML = '';
+
+        if (valid == true) {
+            return true;
+        }
+
+        return false;
+    }
+</script>
+
+</body>
+</html>
